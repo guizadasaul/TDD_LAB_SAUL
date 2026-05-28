@@ -86,9 +86,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a878d415fc2b6c20528f7bc02e844c0252d0c33b",
     "commitName": "feat: soporte para delimitador personalizado con //[d]\n\nParseo el prefijo //[delimitador] para extraer el separador, y lo combino con coma y guion al armar el regex de split.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936515774,
     "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779936527756,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: delimitador personalizado coexiste con coma y guion\n\nEl test confirma que cuando hay un delimitador custom, los separadores por defecto siguen funcionando en la misma cadena.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936537808,
+    "testId": 6
   }
 ]

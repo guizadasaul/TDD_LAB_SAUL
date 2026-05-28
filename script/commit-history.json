@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a878d415fc2b6c20528f7bc02e844c0252d0c33b",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:48:35.000Z",
       "message": "feat: soporte para delimitador personalizado con //[d]\n\nParseo el prefijo //[delimitador] para extraer el separador, y lo combino con coma y guion al armar el regex de split.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/a878d415fc2b6c20528f7bc02e844c0252d0c33b"
     },
     "stats": {
       "total": 24,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:48:57.000Z",
+      "message": "feat: delimitador personalizado coexiste con coma y guion\n\nEl test confirma que cuando hay un delimitador custom, los separadores por defecto siguen funcionando en la misma cadena.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
