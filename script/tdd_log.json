@@ -72,9 +72,23 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c0352624ca916f1d963acc28aa76ec9146e75ec",
     "commitName": "feat: el guion también puede usarse como separador\n\nCambié el split para que acepte tanto coma como guion, así los dos sirven de delimitador.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936481827,
     "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1779936508528,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: soporte para delimitador personalizado con //[d]\n\nParseo el prefijo //[delimitador] para extraer el separador, y lo combino con coma y guion al armar el regex de split.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936515774,
+    "testId": 5
   }
 ]

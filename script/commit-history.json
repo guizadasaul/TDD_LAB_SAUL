@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c0352624ca916f1d963acc28aa76ec9146e75ec",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:48:01.000Z",
       "message": "feat: el guion también puede usarse como separador\n\nCambié el split para que acepte tanto coma como guion, así los dos sirven de delimitador.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/3c0352624ca916f1d963acc28aa76ec9146e75ec"
     },
     "stats": {
       "total": 7,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:48:35.000Z",
+      "message": "feat: soporte para delimitador personalizado con //[d]\n\nParseo el prefijo //[delimitador] para extraer el separador, y lo combino con coma y guion al armar el regex de split.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 23,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
