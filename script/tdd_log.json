@@ -128,9 +128,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d9a7fd5ae5c09b6fd20d345e0ccb469d5dc8d5b",
     "commitName": "feat: delimitadores de varios caracteres como *** o abc funcionan\n\nEl escape de regex ya lo cubría, este test deja documentado explícitamente que la longitud del delimitador no importa.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936593847,
     "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779936630976,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: soporte para múltiples delimitadores en formato //[d1][d2]\n\nEl matchAll en extraerInfo ya capturaba todos los grupos, este test lo deja claro con un caso concreto de dos delimitadores distintos.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936639437,
+    "testId": 9
   }
 ]

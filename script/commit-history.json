@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d9a7fd5ae5c09b6fd20d345e0ccb469d5dc8d5b",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:49:53.000Z",
       "message": "feat: delimitadores de varios caracteres como *** o abc funcionan\n\nEl escape de regex ya lo cubría, este test deja documentado explícitamente que la longitud del delimitador no importa.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/5d9a7fd5ae5c09b6fd20d345e0ccb469d5dc8d5b"
     },
     "stats": {
       "total": 5,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:50:39.000Z",
+      "message": "feat: soporte para múltiples delimitadores en formato //[d1][d2]\n\nEl matchAll en extraerInfo ya capturaba todos los grupos, este test lo deja claro con un caso concreto de dos delimitadores distintos.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
