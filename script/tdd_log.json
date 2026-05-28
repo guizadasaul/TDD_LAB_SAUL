@@ -30,9 +30,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ba653b56ddcd815ba3465fbd77ca645dfd7bbaa",
     "commitName": "feat: calcular acepta un solo número en la cadena\n\nSi viene un único número como string, lo convierte y lo devuelve tal cual.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936341491,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779936379739,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: suma dos números cuando vienen separados por coma\n\nSplit por coma y suma los dos primeros valores encontrados.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936390309,
+    "testId": 2
   }
 ]

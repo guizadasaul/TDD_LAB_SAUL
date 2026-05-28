@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ba653b56ddcd815ba3465fbd77ca645dfd7bbaa",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:45:41.000Z",
       "message": "feat: calcular acepta un solo número en la cadena\n\nSi viene un único número como string, lo convierte y lo devuelve tal cual.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/7ba653b56ddcd815ba3465fbd77ca645dfd7bbaa"
     },
     "stats": {
       "total": 6,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:46:30.000Z",
+      "message": "feat: suma dos números cuando vienen separados por coma\n\nSplit por coma y suma los dos primeros valores encontrados.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
