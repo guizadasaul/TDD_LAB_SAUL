@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:44:33.000Z",
+      "message": "feat: calculadora retorna 0 para cadena vacía\n\nPrimer caso base: si no viene nada, la suma es cero.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

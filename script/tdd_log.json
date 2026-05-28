@@ -1,0 +1,24 @@
+[
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779935433796,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779936267345,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calculadora retorna 0 para cadena vacía\n\nPrimer caso base: si no viene nada, la suma es cero.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936275043,
+    "testId": 0
+  }
+]
