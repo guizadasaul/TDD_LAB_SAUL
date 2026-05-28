@@ -58,9 +58,23 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da2f3a76e79c8c0e6e521f1f6b59a754f3a52321",
     "commitName": "feat: soporte para N números separados por coma\n\nReemplazé la suma manual de dos elementos por un reduce, así funciona con cualquier cantidad de números.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936441883,
     "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779936473845,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el guion también puede usarse como separador\n\nCambié el split para que acepte tanto coma como guion, así los dos sirven de delimitador.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936481827,
+    "testId": 4
   }
 ]

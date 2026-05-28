@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da2f3a76e79c8c0e6e521f1f6b59a754f3a52321",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:47:21.000Z",
       "message": "feat: soporte para N números separados por coma\n\nReemplazé la suma manual de dos elementos por un reduce, así funciona con cualquier cantidad de números.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/da2f3a76e79c8c0e6e521f1f6b59a754f3a52321"
     },
     "stats": {
       "total": 8,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:48:01.000Z",
+      "message": "feat: el guion también puede usarse como separador\n\nCambié el split para que acepte tanto coma como guion, así los dos sirven de delimitador.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
