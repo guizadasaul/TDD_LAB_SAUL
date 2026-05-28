@@ -100,9 +100,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6893cb2fc5294fd998520cb9d5bca1c315d16536",
     "commitName": "feat: delimitador personalizado coexiste con coma y guion\n\nEl test confirma que cuando hay un delimitador custom, los separadores por defecto siguen funcionando en la misma cadena.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936537808,
     "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779936563277,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: números mayores a 1000 se descartan antes de sumar\n\nUn filter simple saca cualquier valor por encima de 1000, el 1000 mismo sí cuenta.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936571416,
+    "testId": 7
   }
 ]

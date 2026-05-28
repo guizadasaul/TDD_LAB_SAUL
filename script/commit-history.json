@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6893cb2fc5294fd998520cb9d5bca1c315d16536",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:48:57.000Z",
       "message": "feat: delimitador personalizado coexiste con coma y guion\n\nEl test confirma que cuando hay un delimitador custom, los separadores por defecto siguen funcionando en la misma cadena.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/6893cb2fc5294fd998520cb9d5bca1c315d16536"
     },
     "stats": {
       "total": 4,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:49:31.000Z",
+      "message": "feat: números mayores a 1000 se descartan antes de sumar\n\nUn filter simple saca cualquier valor por encima de 1000, el 1000 mismo sí cuenta.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
