@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b3d2f21ed73e4b39bea969a258141c514e3158f8",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:49:31.000Z",
       "message": "feat: números mayores a 1000 se descartan antes de sumar\n\nUn filter simple saca cualquier valor por encima de 1000, el 1000 mismo sí cuenta.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/b3d2f21ed73e4b39bea969a258141c514e3158f8"
     },
     "stats": {
       "total": 10,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:49:53.000Z",
+      "message": "feat: delimitadores de varios caracteres como *** o abc funcionan\n\nEl escape de regex ya lo cubría, este test deja documentado explícitamente que la longitud del delimitador no importa.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
