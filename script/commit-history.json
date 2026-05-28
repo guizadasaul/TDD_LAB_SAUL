@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "40f81a1b11e479ece449e68bf032e0fb20abfd17",
     "author": "guizadasaul",
     "commit": {
       "date": "2026-05-28T02:46:30.000Z",
       "message": "feat: suma dos números cuando vienen separados por coma\n\nSplit por coma y suma los dos primeros valores encontrados.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/40f81a1b11e479ece449e68bf032e0fb20abfd17"
     },
     "stats": {
       "total": 7,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "guizadasaul",
+    "commit": {
+      "date": "2026-05-28T02:47:21.000Z",
+      "message": "feat: soporte para N números separados por coma\n\nReemplazé la suma manual de dos elementos por un reduce, así funciona con cualquier cantidad de números.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "url": "https://github.com/guizadasaul/TDD_LAB_SAUL/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

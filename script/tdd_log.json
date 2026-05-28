@@ -44,9 +44,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "40f81a1b11e479ece449e68bf032e0fb20abfd17",
     "commitName": "feat: suma dos números cuando vienen separados por coma\n\nSplit por coma y suma los dos primeros valores encontrados.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936390309,
     "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779936432511,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: soporte para N números separados por coma\n\nReemplazé la suma manual de dos elementos por un reduce, así funciona con cualquier cantidad de números.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936441883,
+    "testId": 3
   }
 ]
