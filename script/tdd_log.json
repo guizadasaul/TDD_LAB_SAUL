@@ -16,9 +16,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "988481e0ead91d54d8437f09e38bfabae18cc7a9",
     "commitName": "feat: calculadora retorna 0 para cadena vacía\n\nPrimer caso base: si no viene nada, la suma es cero.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
     "commitTimestamp": 1779936275043,
     "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779936333277,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular acepta un solo número en la cadena\n\nSi viene un único número como string, lo convierte y lo devuelve tal cual.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+    "commitTimestamp": 1779936341491,
+    "testId": 1
   }
 ]
